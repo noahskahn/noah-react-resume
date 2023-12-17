@@ -221,7 +221,7 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'Project title 4',
-    description: 'Give a short description of your project here.',
+    description: 'GLSL Fractals: Using the OpenGL Shading Language, I render complex mathematical objects to better understand them.',
     url: 'https://reactresume.com',
     image: porfolioImage4,
   },
