@@ -44,8 +44,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Noah Kahn',
+  description: "Resume & More for Noah Kahn",
 };
 
 /**
@@ -69,18 +69,18 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Noah Kahn.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm a Chicago based <strong className="text-stone-100">Student, Developer, and Entrepreneur
+        </strong>, currently studying <strong className="text-stone-100">Physics and Molecular Engineering</strong>
+        at <strong className="text-stone-100">The University of Chicago</strong>.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time time, you can catch me playing <strong className="text-stone-100">Chess</strong>,
+        playing the <strong className="text-stone-100">piano</strong>, or exploring the incredible city of{' '}
+        <strong className="text-stone-100">Chicago</strong>.
       </p>
     </>
   ),
