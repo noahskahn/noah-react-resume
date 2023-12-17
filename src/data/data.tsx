@@ -74,8 +74,9 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a Chicago based <strong className="text-stone-100">Student, Developer, and Entrepreneur
-        </strong>, currently studying <strong className="text-stone-100">Physics and Molecular Engineering</strong>
-         at <strong className="text-stone-100">The University of Chicago</strong>.
+        </strong>, currently studying <strong className="text-stone-100">Physics and Molecular Engineering </strong>
+         at <strong className="text-stone-100">The University of Chicago</strong>. I'm currently developing some passion
+         projects through coding and more!
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me playing <strong className="text-stone-100">Chess</strong>,
