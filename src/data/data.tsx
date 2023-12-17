@@ -279,18 +279,18 @@ export const education: TimelineItem[] = [
     content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
+    date: 'June 2027 (Anticipated)',
+    location: 'University of Chicago',
+    title: 'B.S. Molecular Engineering, B.A. Physics',
     content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'June 2022 - August 2022',
+    location: 'Southwest Airlines',
+    title: 'High School Intern',
     content: (
       <p>
         Describe work, special projects, notable achievements, what technologies you have been working with, and
