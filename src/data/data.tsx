@@ -105,20 +105,20 @@ export const heroData: Hero = {
 export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `Hey there! I'm in my first year at the University of Chicago, 
-  majoring in Physics and Quantum Molecular Engineering. My journey here has been 
-  filled with a diverse exploration of subjects, both academically and beyond. 
+  majoring in Physics and Quantum Molecular Engineering. My journey here has 
+  been filled with a diverse exploration of subjects, both academically and beyond. 
   My passion for programming began with Scratch in 4th grade, and I've since developed a 
-  proficiency in many languages, primarily Python, JavaScript, and GLSL. The fascinating 
-  intersection between science and programming captivates me, and that, currently, is leading me 
-  into Qiskit and the fascinating world of quantum computing.
+  proficiency in many languages, primarily Python, JavaScript, and GLSL. 
+  The intersection between science and programming captivates me, and that is currently 
+  leading me to Qiskit and the fascinating world of quantum computing.
   `,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Chicago, IL', Icon: MapIcon},
+    {label: 'Age', text: '18', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'American', Icon: FlagIcon},
+    {label: 'Interests', text: 'Chess, Piano, Video Games', Icon: SparklesIcon},
+    {label: 'Study', text: 'University of Chicago', Icon: AcademicCapIcon},
+    {label: 'Work', text: 'Looking for Internships', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -135,62 +135,62 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
-      },
-    ],
-  },
-  {
-    name: 'Frontend development',
-    skills: [
-      {
-        name: 'React',
-        level: 9,
-      },
-      {
-        name: 'Typescript',
         level: 7,
       },
       {
-        name: 'GraphQL',
-        level: 6,
+        name: 'Spanish',
+        level: 1,
       },
     ],
   },
   {
-    name: 'Backend development',
+    name: 'Programming Languages',
     skills: [
       {
-        name: 'Node.js',
-        level: 8,
-      },
-      {
-        name: 'Rust',
-        level: 5,
-      },
-      {
-        name: 'Golang',
-        level: 4,
-      },
-    ],
-  },
-  {
-    name: 'Mobile development',
-    skills: [
-      {
-        name: 'React Native',
+        name: 'Python',
         level: 9,
       },
       {
-        name: 'Flutter',
-        level: 4,
+        name: 'Javascript',
+        level: 8,
       },
       {
-        name: 'Swift',
-        level: 3,
+        name: 'C-like Languages',
+        level: 5,
+      },
+    ],
+  },
+  {
+    name: 'Productivity Tools',
+    skills: [
+      {
+        name: 'Microsoft 365 (Excel, Outlook, Teams...)',
+        level: 10,
+      },
+      {
+        name: 'Adobe Suite (Premiere, Photoshop, Acrobat...)',
+        level: 10,
+      },
+      {
+        name: 'Google Workspace (Docs, Sheets, Drive...)',
+        level: 10,
+      },
+    ],
+  },
+  {
+    name: 'Soft Skills',
+    skills: [
+      {
+        name: 'Kind',
+        level: 10,
+      },
+      {
+        name: 'Problem-Solver',
+        level: 9,
+      },
+      {
+        name: 'Teamworker',
+        level: 9,
       },
     ],
   },
