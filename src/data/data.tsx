@@ -75,11 +75,11 @@ export const heroData: Hero = {
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a Chicago based <strong className="text-stone-100">Student, Developer, and Entrepreneur
         </strong>, currently studying <strong className="text-stone-100">Physics and Molecular Engineering</strong>
-        at <strong className="text-stone-100">The University of Chicago</strong>.
+         at <strong className="text-stone-100">The University of Chicago</strong>.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me playing <strong className="text-stone-100">Chess</strong>,
-        playing the <strong className="text-stone-100">piano</strong>, or exploring the incredible city of{' '}
+        making music on the <strong className="text-stone-100">piano</strong>, or exploring the incredible city of{' '}
         <strong className="text-stone-100">Chicago</strong>.
       </p>
     </>
@@ -104,9 +104,14 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `Hey there! I'm in my first year at the University of Chicago, 
+  majoring in Physics and Quantum Molecular Engineering. My journey here has been 
+  filled with a diverse exploration of subjects, both academically and beyond. 
+  My passion for programming began with Scratch in 4th grade, and I've since developed a 
+  proficiency in many languages, primarily Python, JavaScript, and GLSL. The fascinating 
+  intersection between science and programming captivates me, and that, currently, is leading me 
+  into Qiskit and the fascinating world of quantum computing.
+  `,
   aboutItems: [
     {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
     {label: 'Age', text: '29', Icon: CalendarIcon},
