@@ -273,9 +273,9 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
+    date: 'May 2023',
+    location: 'University School of Nashville',
+    title: 'High School Diploma',
     content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
   {
