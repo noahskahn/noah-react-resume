@@ -342,27 +342,27 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'Feel free to message me on any of the social links, and for the quickest response, please email me through the buttom below or at noahsilaskahn@gmail.com',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'noahsilaskahn@gmail.com',
+      href: 'mailto:noahsilaskahn@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Chicago, IL',
+      href: 'https://maps.app.goo.gl/sbT5NzvQnNpAmgJY8',
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: '@noahskahn',
+      href: 'https://www.instagram.com/noahskahn/',
     },
     {
       type: ContactType.Github,
       text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      href: 'https://github.com/noahskahn',
     },
   ],
 };
