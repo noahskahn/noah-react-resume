@@ -361,7 +361,7 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
+      text: 'noahskahn',
       href: 'https://github.com/noahskahn',
     },
   ],
