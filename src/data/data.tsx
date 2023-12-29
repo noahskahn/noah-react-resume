@@ -73,10 +73,11 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Chicago based <strong className="text-stone-100">Student, Developer, and Entrepreneur
+        Hey There! I'm a Chicago based <strong className="text-stone-100">Student, Developer, and Entrepreneur
         </strong>, currently studying <strong className="text-stone-100">Physics and Molecular Engineering </strong>
-         at <strong className="text-stone-100">The University of Chicago</strong>. I'm currently developing some passion
-         projects through coding and more!
+         at <strong className="text-stone-100">The University of Chicago</strong>. Outside of the classroom, I've been 
+         creating projects in Qiskit, contributing to open source, and diving down a different rabbit hole each day.
+          
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me playing <strong className="text-stone-100">Chess</strong>,
@@ -105,7 +106,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Hey there! I'm in my first year at the University of Chicago, 
+  description: `I'm in my first year at the University of Chicago, 
   majoring in Physics and Quantum Molecular Engineering. My journey here has 
   been filled with a diverse exploration of subjects, both academically and beyond. 
   My passion for programming began with Scratch in 4th grade, and I've since developed a 
