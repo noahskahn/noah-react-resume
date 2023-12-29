@@ -1,4 +1,5 @@
 {
+  "project": "PROJECT_NAME/tsconfig.json",
   "root": true,
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
