@@ -108,17 +108,21 @@ export const heroData: Hero = {
 export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `I'm in my first year at the University of Chicago, 
-  majoring in Physics and Quantum Molecular Engineering. My journey here has 
-  been filled with a diverse exploration of subjects, both academically and beyond. 
-  My passion for programming began with Scratch in 4th grade, and I've since developed a 
-  proficiency in many languages, primarily Python, JavaScript, and GLSL. 
-  The intersection between science and programming captivates me, and that is currently 
-  leading me to Qiskit and the fascinating world of quantum computing.
+  where I'm majoring in Physics and Quantum Molecular Engineering. My journey so far has 
+  been filled with a diverse exploration of subjects, both academically and beyond, and I'm
+  so excited to discover more. One of my many interests and hobbies, programming, began when
+  I discovered Scratch in the 4th grade. Since then, I've developed a proficiency in a variety
+  of languages, tried nearly every operating system, and made probably over 100 different
+  hello worlds. 
+  
+  Whether it be programming, physics, engineering, math, (or really just anything interesting),
+  I'm always on the lookout for new ideas and opportunities. If you've got
+  either of those, send them my way!
   `,
   aboutItems: [
     {label: 'Location', text: 'Chicago, IL', Icon: MapIcon},
     {label: 'Age', text: '18', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'American', Icon: FlagIcon},
+    {label: 'Nationality', text: 'United States', Icon: FlagIcon},
     {label: 'Interests', text: 'Chess, Piano, Video Games', Icon: SparklesIcon},
     {label: 'Study', text: 'University of Chicago', Icon: AcademicCapIcon},
     {label: 'Work', text: 'Looking for Internships', Icon: BuildingOffice2Icon},
@@ -203,6 +207,7 @@ export const skills: SkillGroup[] = [
  * Portfolio section
  */
 export const portfolioItems: PortfolioItem[] = [
+  /*
   {
     title: 'Project title 1',
     description: 'Give a short description of your project here.',
@@ -269,6 +274,7 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://reactresume.com',
     image: porfolioImage11,
   },
+  */
 ];
 
 /**
@@ -335,6 +341,7 @@ export const experience: TimelineItem[] = [
 export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
+    /* Currently commented out
     {
       name: 'John Doe',
       text: 'He is just that guy',
@@ -350,6 +357,7 @@ export const testimonial: TestimonialSection = {
       text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
     },
+    */
   ],
 };
 
@@ -392,5 +400,5 @@ export const socialLinks: Social[] = [
   {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/12282360/noah'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/noahsk/'},
   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/noahskahn/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/noahskahn}'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/noahskahn/'},
 ];
