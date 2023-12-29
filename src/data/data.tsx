@@ -82,7 +82,8 @@ export const heroData: Hero = {
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me playing <strong className="text-stone-100">Chess</strong>,
         making music on the <strong className="text-stone-100">piano</strong>, or exploring the incredible city of{' '}
-        <strong className="text-stone-100">Chicago</strong>.
+        <strong className="text-stone-100">Chicago</strong>. Feel free to contact me! I'm always excited to learn 
+        something new.
       </p>
     </>
   ),
@@ -278,13 +279,19 @@ export const education: TimelineItem[] = [
     date: 'May 2023',
     location: 'University School of Nashville',
     title: 'High School Diploma',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    content: <p>In high school, I excelled in advanced courses, especially in chemistry, physics, and computer science, 
+      but these STEM subjects were only one part of my education. Whether it be comparing varying translations of ancient
+      epics, cutting & slumping glass in a kiln, or even running a youtube channel - I constantly tried new things,
+      expanded my palate, and picked up skills along the way.
+    </p>,
   },
   {
     date: 'June 2027 (Anticipated)',
     location: 'University of Chicago',
     title: 'B.S. Molecular Engineering, B.A. Physics',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    content: <p>I'm currently a freshman here at UChicago, but even in my short time here, I've already fell in love
+      with the school. 
+    </p>,
   },
 ];
 
