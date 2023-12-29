@@ -281,7 +281,7 @@ export const education: TimelineItem[] = [
     title: 'High School Diploma',
     content: <p>In high school, I excelled in advanced courses, especially in chemistry, physics, and computer science, 
       but these STEM subjects were only one part of my education. Whether it be comparing varying translations of ancient
-      epics, cutting & slumping glass in a kiln, or even running a youtube channel - I constantly tried new things,
+      epics, cutting &amp; slumping glass in a kiln, or even running a youtube channel - I constantly tried new things,
       expanded my palate, and picked up skills along the way.
     </p>,
   },
@@ -290,7 +290,9 @@ export const education: TimelineItem[] = [
     location: 'University of Chicago',
     title: 'B.S. Molecular Engineering, B.A. Physics',
     content: <p>I'm currently a freshman here at UChicago, but even in my short time here, I've already fell in love
-      with the school. 
+      with the school. I'm currently taking coursework in <b>physics</b>, <b>chemistry</b>, <b>math</b>, and the
+      <b>humanities</b>, but in addition, I'm supplementing this in-class learning by attending guest lectures,
+      participating in clubs, and learning through online resources. 
     </p>,
   },
 ];
@@ -302,8 +304,11 @@ export const experience: TimelineItem[] = [
     title: 'High School Intern',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        At Southwest, I did a little bit of everything. I wrote a Python script which automated several tasks
+        in labeling and distributing PPE, I helped coordinate multi-department tasks, and after shadowing several
+        different roles, I learned and could perform all tasks asked of me. Because this job was at the airport,
+        I went through the Secure Identification Display Area badging process and had full unescorted access to
+        the airport. As part of the SIDA badge, I held additional security and safety responsibilities.
       </p>
     ),
   },
@@ -313,8 +318,12 @@ export const experience: TimelineItem[] = [
     title: 'Dishwasher, Cook',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Henrietta Red is a seafood restaurant in Nashville, Tennessee where I had my first job. I was initially
+        hired as a dishwasher, and during any downtime, I would help prep food, make dishes, shuck oysters, and
+        a whole variety of tasks. After awhile, I took on further roles in preparing raw seafood, baking, and 
+        acting essentially as a chef. The most valuable things I took away from this experience were the people
+        skills and character to handle almost any scenario. After working my first rush, most other problems seem 
+        to become easier in comparison.
       </p>
     ),
   },
