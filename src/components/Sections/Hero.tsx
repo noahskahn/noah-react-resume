@@ -23,7 +23,7 @@ const Hero: FC = memo(() => {
         <div className="z-10  max-w-screen-lg px-4 lg:px-0">
           <div className="flex flex-col items-center gap-y-6 rounded-xl bg-gray-800/40 p-6 text-center shadow-lg backdrop-blur-sm">
             
-            <h1 className="text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-pink-400 ">{name}</h1>
+            <h1 className="text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-300 to-amber-950 ">{name}</h1>
             
             {description}
             <div className="flex gap-x-4 text-neutral-100">

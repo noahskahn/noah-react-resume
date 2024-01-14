@@ -36,7 +36,7 @@ const Contact: FC = memo(() => {
           <div className="order-2 col-span-1 md:order-1 ">
             <ContactForm />
           </div>
-          <div className="order-1 col-span-1 flex flex-col gap-y-4 md:order-2">
+          <div className="order-1 col-span-2 flex flex-col gap-y-4 md:order-2">
             <p className="prose leading-6 text-neutral-300">{description}</p>
             <dl className="flex flex-col space-y-4 text-base text-neutral-500 sm:space-y-2">
               {items.map(({type, text, href}) => {

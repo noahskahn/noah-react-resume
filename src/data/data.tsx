@@ -369,7 +369,7 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Feel free to message me on any of the social links, and for the quickest response, please email me through the buttom below or at noahsilaskahn@gmail.com',
+  description: 'Feel free to message me on any of the social links, and for the quickest response, please email me at noahsilaskahn@gmail.com',
   items: [
     {
       type: ContactType.Email,

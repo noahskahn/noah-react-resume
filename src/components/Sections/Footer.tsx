@@ -20,7 +20,7 @@ const Footer: FC = memo(() => (
         <Socials />
       </div>
       
-      <span className="text-sm text-neutral-700">Made with and lots of &#9825; and this wonderful <u><a href="https://github.com/tbakerx/react-resume-template" >template</a></u>.</span>
+      <span className="text-sm text-neutral-700">Made with lots of &#9825;</span>
 
     </div>
   </div>
