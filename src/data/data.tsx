@@ -83,7 +83,7 @@ export const heroData: Hero = {
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me playing <strong className="text-stone-100">Chess</strong>,
-        making music on the <strong className="text-stone-100">piano</strong>, or exploring the incredible city of{' '}
+        making music on the <strong className="text-stone-100">piano</strong>, or exploring and taking photos of the incredible city of{' '}
         <strong className="text-stone-100">Chicago</strong>. Feel free to contact me! I'm always excited to learn 
         something new.
       </p>
@@ -164,7 +164,7 @@ export const skills: SkillGroup[] = [
         level: 8,
       },
       {
-        name: 'C-like Languages',
+        name: 'Julia, MATLAB, Arduino, GLSL, C# ...',
         level: 5,
       },
     ],
@@ -173,16 +173,16 @@ export const skills: SkillGroup[] = [
     name: 'Productivity Tools',
     skills: [
       {
-        name: 'Microsoft 365 (Excel, Outlook, Teams...)',
+        name: 'Google Workspace (Docs, Sheets, Drive...)',
         level: 10,
       },
       {
         name: 'Adobe Suite (Premiere, Photoshop, Acrobat...)',
-        level: 10,
+        level: 9,
       },
       {
-        name: 'Google Workspace (Docs, Sheets, Drive...)',
-        level: 10,
+        name: 'Microsoft 365 (Excel, Outlook, Teams...)',
+        level: 8,
       },
     ],
   },
@@ -195,11 +195,11 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Problem-Solver',
-        level: 9,
+        level: 10,
       },
       {
         name: 'Teamworker',
-        level: 9,
+        level: 10,
       },
     ],
   },
