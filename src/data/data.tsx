@@ -307,6 +307,23 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
+    date: 'March 2024 - Present',
+    location: 'Chicago Quantum Exchange',
+    title: 'Education and Workforce Development, Student Worker',
+    content: (
+      <p>
+        At the CQE, I've worked on various projects, including analyzing data, outreach, 
+        assembling databases, and more. The CQE stands at the forefront of the quantum field, 
+        bridging industry, academia, and research through networking and resources. In this 
+        ecosystem, I’m helping expand outreach and enhance the availability of quantum 
+        education and opportunities. I've only recently joined the team, and I hope to
+        continue working at the forefront of science - whether it be on the technical side,
+        doing the science myself, or whether it be on the administrative side, bringing
+        new audiences to this wonderful field.
+      </p>
+    ),
+  },
+  {
     date: 'June 2022 - August 2022',
     location: 'Southwest Airlines',
     title: 'High School Intern',
